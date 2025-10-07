@@ -1,0 +1,16 @@
+# Visual Studio cache
+.vs/
+
+# Build output
+x64/
+Debug/
+Release/
+
+# Temporary IntelliSense files
+*.ipch
+
+# Derleme çıktıları
+*.obj
+*.pdb
+*.dll
+*.exe
