@@ -1,0 +1,39 @@
+🚀 Kendi Image Processing Çalışmaları için Kurulum Adımları
+
+⭐ 1. VS’de Proje Oluşturma
+
+Visual Studio’da C++ Console App oluşturun.
+
+⭐ 2. OpenCV Entegrasyonu
+
+Project → Properties → C/C++ → General → Additional Include Directories
+→ Örn: C:\opencv\build\include
+Örnekde ki gibi opencv yolunu ekleyin
+
+Project → Properties → Linker → General → Additional Library Directories
+→ Örn: C:\opencv\build\x64\vc16\lib
+Örnekde ki gibi opencv lib yolunu ekleyin
+
+Project → Properties → Linker → Input → Additional Dependencies
+→ Örn: opencv_world455d.lib
+Örnekde ki gibi kullanacağınız lib ekleyin, Eğer realese ile derleyecekseniz sonun da d olmayacak.
+
+Çalıştırmak için opencv_world455d.dll dosyasını Debug klasörüne kopyalayın. Debug ile çalıştırmak isteyenler.
+
+⭐ 3. Kendi Kodunuzu Çalıştırma
+
+Bu repoyu klonlayın.
+
+İlgili projedeki Projeİsmi/Projeİsmi/Projeİsmi.cpp dosyasındaki kodu kendi projenize kopyalayın ve çalıştırın.
+
+⭐ 4. Repo Üzerinde Çalıştırma (Kodları Görmeden)
+
+Klonlanan klasördeki Projeİsmi.sln dosyasını açın.
+
+Build → Build Solution yapın.
+
+Çalıştırmadan önce opencv_world455.dll dosyasını ekleyin.
+
+Kodları görmeseniz bile proje derlenip çalışır. Tabi ki kodları da görmek için .cpp dosyasına girebilirsiniz✅
+
+Faydalı Olması Dileğiyle...
